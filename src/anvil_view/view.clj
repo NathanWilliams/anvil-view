@@ -155,8 +155,6 @@
            s                                used-style
            :default                         empty-style)]))
 
-
-
 (defn render-sectors []
   (apply concat
     (map-indexed render-sector
